@@ -1,0 +1,8 @@
+def add_two_arguments(price, tax):
+
+  total = price + price*tax
+  tax = 0.1
+
+  print(f"{total}円")
+
+add_two_arguments(3500, 0.1)
